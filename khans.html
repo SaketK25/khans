@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Khans</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+<style>
+body{
+    font-family: Libre Baskerville;
+    background-color: #222831
+}
+
+.khans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.about{
+    flex:1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.achievements{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.achievements li{
+    margin-bottom: 10px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: gainsboro;
+    color: blue;
+    margin-top: 10px;
+}
+
+img{
+    width: 50%;
+    height: 40%;
+    margin-bottom: 20px;
+
+}
+
+.khans :hover{
+    color: whitesmoke
+}
+
+@media (max-width:1250px){
+    .khans {
+        flex-direction: column;
+        height: 100%;
+      }
+}
+</style>
+
+<body>
+<div class = "khans">
+    <div class = "about">
+    <div class = "image"><img src = "./sallu.jpeg"></div>
+    <div class = "title">Salman Khan</div>
+    <div class = "description">The Bhai</div><br>
+    <ul class = "achievements">
+        <li>2 National Awards</li>
+        <li>2 Filmfare Awards</li>
+    </ul>
+    <button class="button">View more</a>
+    </div>
+    
+    
+    <div class = "about">
+    <div class = "image"><img src = "./aamir.jpg"></div>
+    <div class = "title">Aamir Khan</div>
+    <div class = "description">Mr.Perfectionist</div><br>
+    <ul class = "achievements">
+        <li>Padma Bhushan</li>
+        <li>4 National Awards</li>
+        <li>9 Filmfare Awards</li>  
+    </ul>
+    <button class="button">View more</a>
+    </div>
+
+    <div class = "about">
+    <div class = "image"><img src = "./shahrukh.jpg"></div>
+    <div class = "title">Shah Rukh Khan</div>
+    
+    <div class = "description">The Baadshah</div><br>
+    <ul class = "achievements">
+    <li>Padma Shri</li>
+    <li>UNESCO's Pyramide con Marni award</li>
+    <li>14 Filmfare Awards</li>
+    </ul>
+    <button class="button">View more</a>
+    </div>
+</div>
+</body>
+</html>
